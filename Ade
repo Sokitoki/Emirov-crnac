@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volume and Sound Test</title>
+    <script>
+        function playSound() {
+            const audio = new Audio('your-audio-file.mp3'); // Replace with your audio file
+            audio.volume = 1.0; // Set volume to maximum
+            audio.play();
+        }
+    </script>
+</head>
+<body>
+    <button onclick="playSound(moaning)">Play Sound</button>
+</body>
+</html>
